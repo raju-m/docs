@@ -29,14 +29,14 @@
         // This constructor will call BaseClass.BaseClass(int i)
         public DerivedClass(int i) : base(i)
         {
-        }
-
-        static void Main()
+        }       
+    }
+      static void Main()
         {
             DerivedClass md = new DerivedClass();
             DerivedClass md1 = new DerivedClass(1);
         }
-    }
+
     /*
     Output:
     in BaseClass()
